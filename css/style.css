@@ -1,0 +1,28 @@
+header {
+    width: 100vw;
+}
+
+.header_top {
+    height: 40px;
+}
+
+.header_top img {
+    height: 15px;
+}
+
+/* Header Dropdown */
+
+.my_btn {
+    padding: 6px 10px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.my_btn_dark{
+    color: white;
+    background-color: #363636;
+}
+
+.lens {
+    height: 25px;
+}
