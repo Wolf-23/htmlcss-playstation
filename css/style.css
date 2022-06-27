@@ -10,12 +10,13 @@ header {
     height: 15px;
 }
 
-/* Header Dropdown */
+.lens {
+    height: 25px;
+}
+ /* BTN */
 
 .my_btn {
-    padding: 6px 10px;
     border-radius: 50px;
-    text-decoration: none;
 }
 
 .my_btn_dark{
@@ -23,6 +24,41 @@ header {
     background-color: #363636;
 }
 
-.lens {
-    height: 25px;
+.my_btn_red{
+    color: white;
+    background-color: #CD3D0F;
+}
+
+
+/* Main */
+
+main {
+    margin-top: 115px;
+}
+
+#jumbotron {
+    background-image: url(../img/jumbo-bg.png);
+}
+
+.banner {
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.my_jumbo_text {
+    padding-top: 20%;
+    padding-bottom: 60px;
+    width: calc(100vw / 3);
+}
+
+.img_jumbo {
+    height: 40px;
+}
+
+/* Hover */
+
+.my_btn_red:hover {
+    color: #CD3D0F;
+    background-color: #fff;
 }
