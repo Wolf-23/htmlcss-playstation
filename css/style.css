@@ -1,19 +1,12 @@
-header {
-    width: 100vw;
-}
-
-.header_top {
-    height: 40px;
-}
-
 .header_top img {
-    height: 15px;
+    width: 80px;
 }
 
-.lens {
+.my_lens {
     height: 25px;
 }
- /* BTN */
+
+/* BTN */
 
 .my_btn {
     border-radius: 50px;
@@ -36,7 +29,7 @@ main {
     margin-top: 115px;
 }
 
-#jumbotron {
+#my_jumbo_slider {
     background-image: url(../img/jumbo-bg.png);
 }
 
@@ -49,11 +42,6 @@ main {
 .my_jumbo_text {
     padding-top: 20%;
     padding-bottom: 60px;
-    width: calc(100vw / 3);
-}
-
-.img_jumbo {
-    height: 40px;
 }
 
 /* Hover */
@@ -61,4 +49,9 @@ main {
 .my_btn_red:hover {
     color: #CD3D0F;
     background-color: #fff;
+}
+
+section#game_select img:hover {
+    border: 2px solid blue;
+    padding: 3px;
 }
