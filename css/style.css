@@ -16,12 +16,25 @@
     color: white;
     background-color: #363636;
 }
+.my_btn_white {
+    color: #000;
+    background-color: #fff;
+}
 
 .my_btn_red{
     color: white;
     background-color: #CD3D0F;
 }
 
+.my_btn_blue{
+    color: white;
+    background-color: #2B72CE;
+}
+
+.my_btn_grayblue {
+    color: #2B72CE;
+    background-color: #D9DADC;
+}
 
 /* Main */
 
@@ -31,6 +44,18 @@ main {
 
 #my_jumbo_slider {
     background-image: url(../img/jumbo-bg.png);
+}
+
+#my_takes_banner {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+#my_plus_banner {
+    background-color: #BEBCBB;
+}
+
+#my_now_banner {
+    background-color: #161C3B;
 }
 
 .banner {
@@ -44,6 +69,19 @@ main {
     padding-bottom: 60px;
 }
 
+.my_selected {
+    outline: 3px solid #2B72CE;
+    outline-offset: 3px;
+}
+
+.my_img_selected {
+    border-bottom: 2px solid #2B72CE;
+}
+
+.my_img_deselected {
+    opacity: 0.5;
+}
+
 /* Hover */
 
 .my_btn_red:hover {
@@ -51,7 +89,7 @@ main {
     background-color: #fff;
 }
 
-section#game_select img:hover {
-    border: 2px solid blue;
-    padding: 3px;
+.console_items .my_img_deselected:hover {
+    border-bottom: 2px solid #2B72CE;
+    opacity: 1;
 }
