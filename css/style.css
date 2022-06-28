@@ -82,6 +82,26 @@ main {
     opacity: 0.5;
 }
 
+/* Footer */
+
+footer {
+    background-color: #00439C;
+}
+
+.my_list li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.my_list li {
+    padding-bottom: 4px;
+    padding-left: 25px;
+}
+
+.my_play_footer {
+    height: 50px;
+}
+
 /* Hover */
 
 .my_btn_red:hover {
@@ -93,3 +113,4 @@ main {
     border-bottom: 2px solid #2B72CE;
     opacity: 1;
 }
+
