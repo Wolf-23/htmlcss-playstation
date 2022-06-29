@@ -1,9 +1,26 @@
+/* Header */
+
 .header_top img {
     width: 80px;
 }
 
 .my_lens {
     height: 25px;
+}
+
+
+.dropdown-toggle::after {
+    display: inline-block;
+    font-size: 0.7em;
+    font-family: "Font Awesome 6 Free";
+    content: '\f078';
+    font-weight: 900;
+    border: 0;
+    vertical-align: middle;
+}
+
+nav .show::after {
+    transform: rotate(180deg);
 }
 
 /* BTN */
@@ -84,6 +101,7 @@ main {
     border-bottom: 2px solid transparent;
 }
 
+
 /* Footer */
 
 footer {
@@ -110,14 +128,53 @@ footer {
 
 /* Hover */
 
-.my_btn_red:hover {
-    color: #CD3D0F;
-    background-color: #fff;
-}
-
 .console_items .my_img_deselected:hover {
     border-bottom: 2px solid #2B72CE;
     opacity: 1;
+}
+
+.my_btn_dark:hover {
+    outline: 2px solid #363636;
+    outline-offset: 2px;
+    color: #fff;
+    background-color: #363636;
+    border-color: transparent;
+}
+
+.my_btn_red:hover {
+    outline: 2px solid #000;
+    outline-offset: -5px;
+    color: #fff;
+    background-color: #CD3D0F;
+    border-color: transparent;
+}
+
+.my_btn_blue:hover {
+    outline: 2px solid #2B72CE;
+    outline-offset: 2px;
+    color: #fff;
+    background-color: #2B72CE;
+    border-color: transparent;
+}
+
+.my_btn_grayblue:hover {
+    outline: 2px solid #D9DADC;
+    background-color: #D9DADC;
+    color: #2B72CE;
+    border-color: transparent;
+}
+
+.my_btn_white:hover {
+    outline: 2px solid #000;
+    outline-offset: -5px;
+    color: #000;
+    background-color: #fff;
+    border-color: transparent;
+}
+
+.my_img_translate:hover {
+    transform: translateY(-15px);
+    transition-duration: 1s;
 }
 
 /* Media Query  */
