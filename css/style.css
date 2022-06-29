@@ -64,7 +64,8 @@ main {
     background-repeat: no-repeat;
 }
 
-.my_jumbo_text {
+.my_jumbo_text,
+.my_takes_text {
     padding-top: 20%;
     padding-bottom: 60px;
 }
@@ -80,6 +81,7 @@ main {
 
 .my_img_deselected {
     opacity: 0.5;
+    border-bottom: 2px solid transparent;
 }
 
 /* Footer */
@@ -102,6 +104,10 @@ footer {
     height: 50px;
 }
 
+.my_sie_logo {
+    height: 60px;
+}
+
 /* Hover */
 
 .my_btn_red:hover {
@@ -114,3 +120,10 @@ footer {
     opacity: 1;
 }
 
+/* Media Query  */
+
+@media all and (min-width: 768px) {
+    .console_items img {
+        width: 70%;
+    }
+}

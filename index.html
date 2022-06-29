@@ -12,15 +12,15 @@
     <body>
         <header class="fixed-top">
             <div class="header_top bg-black text-end p-2">
-                <img src="img/sony_logo.svg" alt="Logo Sony">
+                <img src="img/sony_logo.svg" alt="Logo Sony" class="me-3">
             </div>
             <div class="header_bottom">
-                <nav class="navbar navbar-expand-lg bg-white justify-content-between">
-                    <div class="d-flex">
+                <nav class="navbar navbar-expand-lg bg-white">
+                    <div class="d-flex w-100 justify-content-between">
                         <a class="navbar-brand" href="#">
                             <img src="img/play_logo.svg" alt="Playstation Logo">
                         </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -94,7 +94,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse me-3" id="navbarSupportedContent">
                         <div class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <div class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle text-black" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -116,11 +116,11 @@
         </header>
         <main>
             <div id="my_jumbo_slider" class="banner">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="row">
                         <div class="col-12 col-lg-4 my_jumbo_text ps-3 ps-md-5"> 
                             <img class="w-50 mb-4" src="img/returnal-hero-banner-logo.png" alt="Returnal">
-                            <h2 class="text-white mb-4 fs-1">Rompi il cerchio</h2>
+                            <h2 class="text-white mb-4">Rompi il cerchio</h2>
                             <p class="text-white mb-5">Rialzati dopo ogni sconfitta e affrotnta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5</p>
                             <a href="#" class="btn my_btn my_btn_red">Acquista ora</a>
                         </div>
@@ -128,8 +128,8 @@
                 </div>
             </div>
             <section id="game_select">
-                <div class="container-fluid mb-5">
-                    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6 g-3 m-2 m-md-4">
+                <div class="container mb-5">
+                    <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 g-4 my-3">
                         <div class="col">
                             <img class="img-fluid rounded-4 my_selected" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
                         </div>
@@ -152,42 +152,52 @@
                 </div>
             </section>
             <section id="console">
-                <div class="container text-center mb-5">
-                    <span class="text-primary text-uppercase">play has no limits</span>
+                <div class="container text-center mb-5 pt-4">
+                    <span class="text-primary text-uppercase fw-semibold">play has no limits</span>
                     <h1 class="mb-3">Ecco la Playstation 5</h1>
-                    <p class="text-secondary">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+                    <p class="text-secondary fw-semibold">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
                 </div>
-                <div class="container-fluid">
+                <div class="container">
                     <div class="row align-items-lg-center">
-                        <div class="col-12 col-md-6 mt-5 mt-lg-0">
+                        <div class="col-12 col-md-5 mt-5 mt-lg-0">
                             <h2 class="h1">Console Playstation 5</h2>
-                            <p class="text-secondary mb-4">Sperimenta la nuova generazione di incredibili giochi Playstation</p>
+                            <p class="text-secondary fw-semibold mb-4">Sperimenta la nuova generazione di incredibili giochi Playstation</p>
                             <a href="#" class="btn my_btn my_btn_blue">Maggiori informazioni</a>
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-7">
                             <img class="img-fluid" src="img/playstation-5-thumb.png" alt="Playstation 5">
                         </div>
                     </div>
-                    <div class="row console_items gx-5 mb-5">
-                        <div class="col-4 col-md-2 offset-md-1 my_img_selected">
-                            <img class="img-fluid" src="img/playstation-5-thumb.png" alt="Playstation 5">
-                            <div class="text-center my-3 d-none d-md-block">Console PS5</div>
+                    <div class="row console_items row-cols-3 row-cols-md-5 mb-5 g-3 overflow-hidden text-center">
+                        <div class="col">
+                            <a href="#" class="my_img_selected text-decoration-none d-block h-100 text-black">
+                                <img class="img-fluid" src="img/playstation-5-thumb.png" alt="Playstation 5">
+                                <div class="my-3 d-none d-md-block fw-semibold">Console PS5</div>
+                            </a>
                         </div>
-                        <div class="col-4 col-md-2 my_img_deselected">
-                            <img class="img-fluid" src="img/joypad-thumb.png" alt="Joypad">
-                            <div class="text-center my-3 d-none d-md-block">Controller wireless DualSense&trade;</div>
+                        <div class="col">
+                            <a href="#" class="my_img_deselected text-decoration-none d-block h-100 text-black">
+                                <img class="img-fluid" src="img/joypad-thumb.png" alt="Joypad">
+                                <div class="my-3 d-none d-md-block fw-semibold">Controller wireless DualSense&trade;</div>
+                            </a>
                         </div>
-                        <div class="col-4 col-md-2 my_img_deselected">
-                            <img class="img-fluid" src="img/headset-thumb.png" alt="Headset">
-                            <div class="text-center my-3 d-none d-md-block">Cuffie wireless con microfono PULSE 3&trade;</div>
+                        <div class="col">
+                            <a href="#" class="my_img_deselected text-decoration-none d-block h-100 text-black">
+                                <img class="img-fluid" src="img/headset-thumb.png" alt="Headset">
+                                <div class="my-3 d-none d-md-block fw-semibold">Cuffie wireless con microfono PULSE 3&trade;</div>
+                            </a>
                         </div>
-                        <div class="col-4 col-md-2 my_img_deselected">
-                            <img class="img-fluid" src="img/remote-thumb.png" alt="Remote">
-                            <div class="text-center my-3 d-none d-md-block">Telecomando Media</div>
+                        <div class="col">
+                            <a href="#" class="my_img_deselected text-decoration-none d-block h-100 text-black">
+                                <img class="img-fluid" src="img/remote-thumb.png" alt="Remote">
+                                <div class="my-3 d-none d-md-block fw-semibold">Telecomando Media</div>
+                            </a>
                         </div>
-                        <div class="col-4 col-md-2 my_img_deselected">
-                            <img class="img-fluid" src="img/camera-thumb.jpg" alt="Camera">
-                            <div class="text-center my-3 d-none d-md-block">Telecamera HD</div>
+                        <div class="col">
+                            <a href="#" class="my_img_deselected text-decoration-none d-block h-100 text-black">
+                                <img class="img-fluid" src="img/camera-thumb.jpg" alt="Camera">
+                                <div class="my-3 d-none d-md-block fw-semibold">Telecamera HD</div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -195,7 +205,7 @@
             <div id="my_takes_banner" class="banner">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-12 col-lg-4 my_jumbo_text ps-3 ps-md-5"> 
+                        <div class="col-12 col-lg-4 my_takes_text ps-3 ps-md-5"> 
                             <img class="w-50 mb-4" src="img/it-takes-two-logo.png" alt="Returnal">
                             <h2 class="text-white mb-4 fs-1">Un'avventura cooperativa selvaggia ti attende </h2>
                             <p class="text-white mb-5">Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco di avventura cooperativa a piattaforme che stravolge il suo genere</p>
@@ -262,25 +272,31 @@
             </section>
             <section id="explore_play4">
                 <div class="container-fluid mt-5">
-                    <h1 class="text-center">Esplora PlayStation&reg; 4</h1>
-                    <p class="text-center text-secondary fw-semibold">Giochi incredibili e intrattenimento senza fine. Non c'è mai stato un momento migliore per giocare sulla tua PS4</p>
+                    <div class="row">
+                        <div class="col-12 col-lg-6 offset-lg-3 mb-3">
+                            <h1 class="text-center">Esplora PlayStation&reg; 4</h1>
+                        </div>
+                        <div class="col-12 col-lg-6 offset-lg-3">
+                            <p class="text-center text-secondary fw-semibold">Giochi incredibili e intrattenimento senza fine. Non c'è mai stato un momento migliore per giocare sulla tua PS4</p>
+                        </div>
+                    </div>
                     <div class="row mx-lg-4">
                         <div class="col-12 col-md-4 mb-5">
                             <img class="img-fluid" src="img/ps4-slim-homepage-image-block.jpg" alt="PS4">
                             <h3>PlayStation 4</h3>
-                            <p class="text-secondary fw-semibold">Giochi incredibili live su PS4, con 1TB di spazio di archiviazione.</p>
+                            <p class="text-secondary fw-semibold my-3">Giochi incredibili live su PS4, con 1TB di spazio di archiviazione.</p>
                             <a href="#" class="btn my_btn my_btn_blue">Scopri di più</a>
                         </div>
                         <div class="col-12 col-md-4 mb-5">
                             <img class="img-fluid" src="img/double11-202010-tw-psvr.jpg" alt="Playstaion VR">
                             <h3>PlayStation VR</h3>
-                            <p class="text-secondary fw-semibold">Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</p>
+                            <p class="text-secondary fw-semibold my-3">Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</p>
                             <a href="#" class="btn my_btn my_btn_blue">Scopri di più</a>
                         </div>
                         <div class="col-12 col-md-4 mb-5">
                             <img class="img-fluid" src="img/dualshock-4-listing-thumb.jpg" alt="PS4">
                             <h3>Accessori</h3>
-                            <p class="text-secondary fw-semibold">Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.</p>
+                            <p class="text-secondary fw-semibold my-3">Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.</p>
                             <a href="#" class="btn my_btn my_btn_blue">Scopri di più</a>
                         </div>
                     </div>
@@ -319,7 +335,7 @@
             </section>
             <section id="my_now_banner">
                 <div class="container-fluid">
-                    <div class="row align-items-center">
+                    <div class="row align-items-center px-3">
                         <div class="col-12 col-md-6 py-3 py-md-5">
                             <img class="img-fluid w-50" src="img/ps-now-logo-two-column.png" alt="Playstation Now">
                             <p class="fw-semibold my-4 text-white">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS$, PS3 e Ps2 su Ps4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
@@ -354,7 +370,7 @@
         <footer>
             <div class="footer_top">
                 <div class="container-fluid py-5">
-                    <div class="row">
+                    <div class="row mx-3">
                         <div class="col-12 col-sm-12 col-lg-6 text-white">
                             <img src="img/ps-footer.svg" alt="Playstaion Logo" class="img-fluid my_play_footer">
                             <p class="py-4">
@@ -420,7 +436,16 @@
                                 </li>
                             </ul>
                         </div>
-                       
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="container-fluid">
+                    <img class="img-fluid my_sie_logo ms-3 mb-3" src="img/sie-logo.svg" alt="SIE Logo">
+                    <div class="row mx-3">
+                        <div class="col-12 col-lg-6">
+                            <p class="text-white">Website &copy;2021 Sony Interactive Entertainmente Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati. <a class="text-white" href="#">Maggiori info</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
